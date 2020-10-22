@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main()  {
-	arr:= [5]int{4,5,6,7,8}
+	arr:= [4]int{4,5,6,7}
 	sum :=0
 
 	arr2D :=[2][3]int{{1,2,3},{2,4,5}}
