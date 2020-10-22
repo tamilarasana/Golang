@@ -26,20 +26,6 @@ func main() {
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // func main()  {
 // 	age := 15
 // 	if age >= 18{
