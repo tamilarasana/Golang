@@ -55,7 +55,7 @@ import  "fmt"
 func main()  {
 	x:= 5.5
 	y := 7
-	val := x != float64(y)
+	val := x != float64(y
 	fmt.Printf("%t", val)
 	
 	
