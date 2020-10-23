@@ -5,19 +5,22 @@ import "fmt"
 //sllice 
 
 func main()  {
-	var a[]int =  []int{1,4,5,6,3,5,7,3,2,7,8,9}
+	var a[]int =  []int{1,4,5,6,3,5,7,3,2,7,8,9,10}
 	for i:=0; i<len(a); i++{
 		fmt.Println(a[i])
 	}
 	
 }
  //ranege
- 
+
 /*func main()  {
 	var a[]int = []int{1,4,5,6,3,5,7,3,2,7,8,9}
 	for i, element := range a {
 		fmt.Printf("%d: %d \n", i,element)
-	
+
+		
+
+
 		
 	}
 	
