@@ -34,7 +34,7 @@ func changeFirst(slice []int)  {
 }
 
 func main()  {
-	var x []int = []int{3,4,5}
+	var x []int = []int{3,4,5,6}
 	fmt.Println(x)
 	changeFirst(x)
 	fmt.Println(x)
