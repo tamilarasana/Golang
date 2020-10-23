@@ -8,7 +8,7 @@ func main()  {
 		 "tamil" : 7,
 		 "vicky" : 8,
 		 "ram"   : 9,
-		 "sam"   : 6,
+		 "sam"   : 5,
 	 }
 	 fmt.Println(mp["tamil"])
 	 mp["tamil"] = 10    //update
