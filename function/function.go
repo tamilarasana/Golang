@@ -11,7 +11,7 @@ func max(x int ,y int )int  {
 }
 
 func main()  {
-	x := max(16,6)
+	x := max(10,6)
 	fmt.Println(x)
 	
 }
