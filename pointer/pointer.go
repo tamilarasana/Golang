@@ -4,7 +4,7 @@ import "fmt"
 
 
 func main()  {
-	tochange := "Tamil"
+	tochange := "Tamilarasan"
 	var pointer *string = &tochange
 	fmt.Println(pointer) 
 	fmt.Println(*pointer)
