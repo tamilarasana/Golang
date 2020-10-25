@@ -2,6 +2,24 @@ package main
 
 import "fmt"
 
+type point struct{
+	x int
+	y int
+}
+
+type circle struct{
+	radios float64
+	center *point
+}
+
+func main()  {
+
+	c1 := circle{2.5,&point{4,5}}
+	fmt.Println("Structs program")
+	fmt.Println(c1.center.x)
+	
+}
+
 
 /*type vertext  struct{
 	x  int
@@ -22,19 +40,3 @@ func main()  {
 	fmt.Println(tamil2.y)
 }*/
 
-type point struct{
-	x int
-	y int
-}
-
-type circle struct{
-	radios float64
-	center *point
-}
-
-func main()  {
-
-	c1 := circle{2.5,&point{4,5}}
-	fmt.Println(c1.center.x)
-	
-}
