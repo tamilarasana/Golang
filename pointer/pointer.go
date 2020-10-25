@@ -3,14 +3,26 @@ package main
 import "fmt"
 
 
-func main()  {
-	tochange := "Tamilarasan"
-	var pointer *string = &tochange
-	fmt.Println(pointer) 
-	fmt.Println(*pointer)
-	fmt.Println(&pointer)
+
+func main(){
+	var i int = 5
+	var ptr  *int
+	var pptr **int
+
+	ptr = &i
+	pptr  = &ptr
+	//fmt.Println(i)
+	fmt.Println(&ptr)
+	fmt.Println(**pptr)
+} 
+// func main()  {
+// 	tochange := "Tamilarasan"
+// 	var pointer *string = &tochange
+// 	fmt.Println(pointer) 
+// 	fmt.Println(*pointer)
+// 	fmt.Println(&pointer)
 	
-}
+// }
 
 // func main()  {
 // 	x:= 7
