@@ -13,6 +13,7 @@ func main()  {
 	printText("Tamilarasan") 
 	defer printText("second")
 	defer printText("third")
+	defer printText("four")
 	
 }
 func printText(p string)  {
