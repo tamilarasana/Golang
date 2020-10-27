@@ -5,7 +5,7 @@ import "fmt"
 func main()  {
 	myChannels := make(chan string)
 	go func (){
-		 myChannels<- "Tamilarasan"
+		 myChannels<- "A Tamilarasan"
 		 myChannels<- "Annamalai" 
 	         }()
 
