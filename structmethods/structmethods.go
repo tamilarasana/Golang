@@ -34,10 +34,10 @@ func (s student) getMaxGrade()int{
 func main()  {
 	s1 := student{"tamil", []int{20,40,50},24}
 	s2:= student{"sam", []int {20,40,50},24}
-	s3:= student{"ram", []int {20,40,50},24}
+	s3:= student{"vicky", []int {20,40,50},24}
 	s1.setAge(25)
 	average := s2.getAverageGrade()
-	max :=s3.getMaxGrade()
+	max :=s.getMaxGrade()
 	fmt.Println(s1)
 	fmt.Println(average)
 	fmt.Println(max)
