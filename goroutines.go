@@ -10,7 +10,7 @@ func main()  {
 
 	 fmt.Println("done")
 	 time.Sleep(time.Second)
-	 fmt.Println("done")
+	 fmt.Println("Ok")
 	
 }
 
