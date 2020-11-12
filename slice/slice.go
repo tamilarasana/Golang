@@ -2,15 +2,23 @@ package main
 
 import "fmt"
 
-//sllice 
-
 func main()  {
-	var a[]int =  []int{1,4,5,6,3,5,7,3,2,7,8,9,10}
-	for i:=0; i<len(a); i++{
-		fmt.Println(a[i])
-	}
+
+	slice1 := []int{1,2,3}
+	slice2:= make([]int, 2)
+	copy(slice2, slice1)
+	fmt.Println(slice1, slice2)
 	
-}
+}//sllice 
+
+// func main()  {
+// 	var a[]int  =  []int{1,4,5,6,3,5,7,3,2,7,8,9,10,11,12}
+// 	var2 := append(a, 4,5)	
+// 	for i:=0; i<len(a); i++{
+// 		fmt.Println(a[i], var2)
+// 	}
+	
+// }
  //ranege
 
 /*func main()  {

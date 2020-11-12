@@ -2,18 +2,28 @@ package main
 
 import  "fmt"
 
-func max(x int ,y int )int  {
-	if x > y {
-	  return x
-	}else{
-		return y
-	}
-}
+// func max(x int ,y int )int  {
+// 	if x > y {
+// 	  return x
+// 	}else{
+// 		return y
+// 	}
+// }
 
-func main()  {
-	x := max(10,6)
-	fmt.Println(x)
+// func main()  {
+// 	x := max(10,6)
+// 	fmt.Println(x)
 	
+// }
+
+func main(){
+	xs := []int{98,45,65,67,34}
+
+	total =0 
+	for _,  v := range xs {
+		total += v
+	}
+	fmt.Println(total/len(xs))
 }
 
 /*func add(x,y int) (int, int)  {
